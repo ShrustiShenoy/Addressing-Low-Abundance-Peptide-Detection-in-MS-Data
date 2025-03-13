@@ -23,19 +23,4 @@ This project implements a targeted pipeline to improve detection of low-abundanc
 - **Modular Design**: Separates preprocessing, analysis, and visualization for scalability and reusability.
 - **Practical Outputs**: Generates visual plots and tabular summaries for downstream analysis.
 
-## Project Structure
-MassSpecBioinformatics/
-├── data/
-│   ├── cancer_sample.npz         # Synthetic cancer proteomics data
-│   └── generate_cancer_sample.py # Script to generate sample data
-├── src/
-│   ├── preprocess.py             # Baseline correction and noise filtering
-│   ├── analyze.py                # CWT-based peak detection
-│   ├── visualize.py              # Spectrum plotting
-│   └── main.py                   # Main pipeline
-├── results/
-│   ├── cancer_spectrum.png       # Output plot (example)
-│   └── peak_summary.csv          # Output peak table (example)
-├── README.md                     # Project documentation
-├── requirements.txt              # Dependencies
-└── LICENSE                       # MIT License
+
